@@ -2,6 +2,10 @@ mouse grid:
     user.grid_select_screen(1)
     user.grid_activate()
 
+mouse grid <user.number_key>:
+    user.grid_select_screen(1)
+    user.grid_narrow_list(number_key_list)
+
 grid win:
     user.grid_place_window()
     user.grid_activate()
