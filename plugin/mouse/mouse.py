@@ -220,6 +220,27 @@ class Actions:
         rect = ui.active_window().rect
         ctrl.mouse_move(rect.left + (rect.width / 2), rect.top + (rect.height / 2))
 
+    def mouse_move_slightly(direction: str):
+        """Moves the mouse slightly in the specified direction."""
+        
+        sensitivity = 25  # Adjust the sensitivity as needed
+
+        x, y = ctrl.mouse_pos()
+
+        
+        if direction == "left":
+            x -= sensitivity
+        elif direction == "right":
+            x += sensitivity
+        elif direction == "up":
+            y -= sensitivity
+        elif direction == "down":
+            y += sensitivity
+
+        ctrl.mouse_move(x, y)
+         
+        
+
     def hiss_scroll_up():
         """Change mouse hiss scroll direction to up"""
         global hiss_scroll_up
