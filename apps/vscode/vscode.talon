@@ -6,6 +6,13 @@ tag(): user.line_commands
 tag(): user.multiple_cursors
 tag(): user.splits
 tag(): user.tabs
+# terminal settings
+tag(): terminal
+tag(): user.generic_windows_shell
+tag(): user.git
+tag(): user.kubectl
+tag(): user.terraform
+
 window reload: user.vscode("workbench.action.reloadWindow")
 window close: user.vscode("workbench.action.closeWindow")
 #multiple_cursor.py support end
