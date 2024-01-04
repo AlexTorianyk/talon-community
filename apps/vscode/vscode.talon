@@ -11,7 +11,7 @@ tag(): terminal
 tag(): user.generic_windows_shell
 tag(): user.git
 tag(): user.kubectl
-tag(): user.terraform
+tag(): user.terraform_client
 
 window reload: user.vscode("workbench.action.reloadWindow")
 window close: user.vscode("workbench.action.closeWindow")
