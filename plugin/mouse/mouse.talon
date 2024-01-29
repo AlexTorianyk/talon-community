@@ -3,7 +3,7 @@ control off: user.mouse_sleep()
 zoom mouse: tracking.control_zoom_toggle()
 camera overlay: tracking.control_debug_toggle()
 run calibration: tracking.calibrate()
-touch:
+(touch|knock):
     mouse_click(0)
     # close the mouse grid if open
     user.grid_close()
@@ -28,7 +28,7 @@ mid click:
 #option = alt
 #shift
 #super = windows key
-<user.modifiers> touch:
+<user.modifiers> (touch|knock):
     key("{modifiers}:down")
     mouse_click(0)
     key("{modifiers}:up")
@@ -112,8 +112,6 @@ wheel tiny right here:
     user.mouse_move_center_active_window()
     user.mouse_scroll_right(0.5)
 copy mouse position: user.copy_mouse_position()
-mouse ( move | go ) [{user.arrow_key}]:
-    user.mouse_move_slightly(arrow_key)
 curse no:
     # Command added 2021-12-13, can remove after 2022-06-01
     app.notify("Please activate the user.mouse_cursor_commands_enable tag to enable this command")
