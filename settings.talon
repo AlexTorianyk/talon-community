@@ -11,8 +11,8 @@ settings():
     # Set the number of contexts to display per help page
     user.help_max_contexts_per_page = 20
 
-    # Set the scroll amount for continuous scroll/gaze scroll
-    user.mouse_continuous_scroll_amount = 80
+    # The default amount used when scrolling continuously
+    user.mouse_continuous_scroll_amount = 140
 
     # If `true`, stop continuous scroll/gaze scroll with a pop
     user.mouse_enable_pop_stops_scroll = true
@@ -24,7 +24,7 @@ settings():
     user.mouse_enable_pop_click = 1
 
     # If `true`, use a hissing noise to scroll continuously
-    user.mouse_enable_hiss_scroll = false
+    user.mouse_enable_hiss_scroll = true
 
     # If `true`, hide the continuous scroll/gaze scroll GUI
     user.mouse_hide_mouse_gui = false
@@ -39,7 +39,7 @@ settings():
     user.mouse_wheel_horizontal_amount = 40
 
     # If `true`, start mouse grid numbering on the bottom left (vs. top left)
-    user.grids_put_one_bottom_left = true
+    user.grids_put_one_bottom_left = false
 
     # Set the default number of command history lines to display
     user.command_history_display = 10
@@ -78,4 +78,4 @@ settings():
 # By default saying "one" would write "1", however many users find this behavior
 # prone to false positives. If you uncomment this, you will need to say
 # "numb one" to write "1". Note that this tag will eventually be activated by default
-# tag(): user.prefixed_numbers
+#tag(): user.prefixed_numbers

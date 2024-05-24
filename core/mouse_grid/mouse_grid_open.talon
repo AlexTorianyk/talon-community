@@ -5,6 +5,8 @@ tag(): user.prefixed_numbers
 <user.number_key>: user.grid_narrow(number_key)
 grid off: user.grid_close()
 
+grid end: user.grid_close()
+
 grid reset: user.grid_reset()
 
 grid back: user.grid_go_back()
