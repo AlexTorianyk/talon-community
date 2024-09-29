@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: MSI
+-
+user: C:\Users\aleks
+desktop: C:\Users\aleks\Desktop
+desk: C:\Users\aleks\Desktop
+documents: C:\Users\aleks\Documents
+docks: C:\Users\aleks\Documents
+downloads: C:\Users\aleks\Downloads
+music: C:\Users\aleks\Music
+pictures: C:\Users\aleks\Pictures
+videos: C:\Users\aleks\Videos
+talon home: C:\Users\aleks\AppData\Roaming\talon
+talon recordings: C:\Users\aleks\AppData\Roaming\talon\recordings
+talon user: C:\Users\aleks\AppData\Roaming\talon\user
+profile: C:\Users\aleks
