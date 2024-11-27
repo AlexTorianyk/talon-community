@@ -22,7 +22,7 @@ settings():
     user.mouse_continuous_scroll_amount = 140
 
     # Set the maximum acceleration factor when scrolling continuously. 1=constant speed/no acceleration.
-    user.mouse_continuous_scroll_acceleration = 1
+    user.mouse_continuous_scroll_acceleration = 1.2
 
     # If `true`, stop continuous scroll/gaze scroll with a pop
     user.mouse_enable_pop_stops_scroll = true
