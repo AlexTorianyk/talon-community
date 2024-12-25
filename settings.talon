@@ -19,7 +19,7 @@ settings():
     user.help_max_contexts_per_page = 20
 
     # The default amount used when scrolling continuously
-    user.mouse_continuous_scroll_amount = 140
+    user.mouse_continuous_scroll_amount = 14
 
     # Set the maximum acceleration factor when scrolling continuously. 1=constant speed/no acceleration.
     user.mouse_continuous_scroll_acceleration = 1.2
