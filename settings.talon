@@ -21,9 +21,6 @@ settings():
     # The default amount used when scrolling continuously
     user.mouse_continuous_scroll_amount = 14
 
-    # Set the scroll amount for continuous scroll/gaze scroll
-    user.mouse_continuous_scroll_amount = 8
-
     # Set the maximum acceleration factor when scrolling continuously. 1=constant speed/no acceleration.
     user.mouse_continuous_scroll_acceleration = 1.2
 
@@ -49,7 +46,7 @@ settings():
     user.mouse_wake_hides_cursor = false
 
     # Set the amount to scroll up/down
-    user.mouse_wheel_down_amount = 120
+    user.mouse_wheel_down_amount = 12
 
     # Set the amount to scroll left/right
     user.mouse_wheel_horizontal_amount = 40
