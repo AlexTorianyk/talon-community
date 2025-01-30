@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: GN-PW0B8Z54
+-
+user: C:\Users\otorianyk
+desktop: C:\Users\otorianyk\Desktop
+desk: C:\Users\otorianyk\Desktop
+documents: C:\Users\otorianyk\Documents
+docks: C:\Users\otorianyk\Documents
+downloads: C:\Users\otorianyk\Downloads
+music: C:\Users\otorianyk\Music
+pictures: C:\Users\otorianyk\Pictures
+videos: C:\Users\otorianyk\Videos
+talon home: C:\Users\otorianyk\AppData\Roaming\talon
+talon recordings: C:\Users\otorianyk\AppData\Roaming\talon\recordings
+talon user: C:\Users\otorianyk\AppData\Roaming\talon\user
+profile: C:\Users\otorianyk
